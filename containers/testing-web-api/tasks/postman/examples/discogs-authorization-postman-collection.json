@@ -1,0 +1,388 @@
+{
+	"info": {
+		"_postman_id": "fb52c907-e392-49f1-bf20-3d702b54e0f4",
+		"name": "Discogs - Authorization",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - REQUEST TOKEN",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a35e5b2e-0aea-41ef-92e4-314a48129205",
+						"exec": [
+							"const collection = require('postman-collection');\r",
+							"const params = collection.QueryParam.parse(pm.response.text());\r",
+							"console.log(params);\r",
+							"\r",
+							"pm.environment.set(\"oauth_token\", params[0].value);\r",
+							"pm.environment.set(\"oauth_token_secret\", params[1].value);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth1",
+					"oauth1": [
+						{
+							"key": "consumerSecret",
+							"value": "{{consumerSecret}}",
+							"type": "string"
+						},
+						{
+							"key": "consumerKey",
+							"value": "{{consumerKey}}",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": "1600853536077",
+							"type": "string"
+						},
+						{
+							"key": "nonce",
+							"value": "8996833217",
+							"type": "string"
+						},
+						{
+							"key": "signatureMethod",
+							"value": "HMAC-SHA1",
+							"type": "string"
+						},
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "callback",
+							"value": "https://oauth.pstmn.io/v1/callback",
+							"type": "string"
+						},
+						{
+							"key": "version",
+							"value": "1.0",
+							"type": "string"
+						},
+						{
+							"key": "addParamsToHeader",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "addEmptyParamsToSign",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/oauth/request_token",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"request_token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - AUTHORIZE PAGE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://discogs.com/oauth/authorize?oauth_token={{oauth_token}}",
+					"protocol": "https",
+					"host": [
+						"discogs",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "oauth_token",
+							"value": "{{oauth_token}}"
+						},
+						{
+							"key": "oauth_token_secret",
+							"value": "{{oauth_token_secret}}",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - ACCESS TOKEN ",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7a7efb33-a2d2-477b-87f1-84e06bdc6a7f",
+						"exec": [
+							"const collection = require('postman-collection');\r",
+							"const params = collection.QueryParam.parse(pm.response.text());\r",
+							"console.log(params);\r",
+							"\r",
+							"pm.environment.set(\"oauth_token\", params[0].value);\r",
+							"pm.environment.set(\"oauth_token_secret\", params[1].value);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth1",
+					"oauth1": [
+						{
+							"key": "version",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "verifier",
+							"value": "{{oauth_verifier}}",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": "1600870809211",
+							"type": "string"
+						},
+						{
+							"key": "callback",
+							"value": "https://oauth.pstmn.io/v1/callback",
+							"type": "string"
+						},
+						{
+							"key": "nonce",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "signatureMethod",
+							"value": "PLAINTEXT",
+							"type": "string"
+						},
+						{
+							"key": "tokenSecret",
+							"value": "{{oauth_token_secret}}",
+							"type": "string"
+						},
+						{
+							"key": "token",
+							"value": "{{oauth_token}}",
+							"type": "string"
+						},
+						{
+							"key": "consumerSecret",
+							"value": "{{consumerSecret}}",
+							"type": "string"
+						},
+						{
+							"key": "consumerKey",
+							"value": "{{consumerKey}}",
+							"type": "string"
+						},
+						{
+							"key": "addParamsToHeader",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "addEmptyParamsToSign",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.discogs.com/oauth/access_token",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"access_token"
+					],
+					"query": [
+						{
+							"key": "oauth_verifier",
+							"value": "{{oauth_verifier}}",
+							"disabled": true
+						},
+						{
+							"key": "oauth_token",
+							"value": "HLFoMjAdzPGPgvaODRExEjZPtREzhURclgEsbPTm",
+							"disabled": true
+						},
+						{
+							"key": "oauth_verifier",
+							"value": "{{oauth_verifier}}",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - GET Identity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3ed6aef3-e72c-40c3-a64b-9e76a4006379",
+						"exec": [
+							"const responseJson = pm.response.json();\r",
+							"\r",
+							"var id = responseJson.id;\r",
+							"var username = responseJson.username;\r",
+							"console.log(id);\r",
+							"console.log(username);\r",
+							"\r",
+							"pm.environment.set(\"id\", id);\r",
+							"pm.environment.set(\"username\", username);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth1",
+					"oauth1": [
+						{
+							"key": "tokenSecret",
+							"value": "{{oauth_token_secret}}",
+							"type": "string"
+						},
+						{
+							"key": "token",
+							"value": "{{oauth_token}}",
+							"type": "string"
+						},
+						{
+							"key": "version",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "verifier",
+							"value": "{{oauth_verifier}}",
+							"type": "string"
+						},
+						{
+							"key": "timestamp",
+							"value": "1600870809211",
+							"type": "string"
+						},
+						{
+							"key": "callback",
+							"value": "https://oauth.pstmn.io/v1/callback",
+							"type": "string"
+						},
+						{
+							"key": "nonce",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "signatureMethod",
+							"value": "PLAINTEXT",
+							"type": "string"
+						},
+						{
+							"key": "consumerSecret",
+							"value": "{{consumerSecret}}",
+							"type": "string"
+						},
+						{
+							"key": "consumerKey",
+							"value": "{{consumerKey}}",
+							"type": "string"
+						},
+						{
+							"key": "addParamsToHeader",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "addEmptyParamsToSign",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/oauth/identity",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"identity"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "93005739-0ebc-4b3d-aac6-2fd969e70a98",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "376306c7-210a-4092-84fd-0904390636de",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

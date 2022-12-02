@@ -1,0 +1,385 @@
+{
+	"info": {
+		"_postman_id": "966d9a6d-09c2-4b46-ae86-624027a3144e",
+		"name": "Discogs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Release_ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b5fd4fae-80cf-4bae-9a43-68c0766b209a",
+						"exec": [
+							"const responseJson = pm.response.json();\r",
+							"\r",
+							"var id = responseJson.id;\r",
+							"\r",
+							"pm.environment.set(\"release_id\", id);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.discogs.com/releases/85261",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"releases",
+						"85261"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Wantlist",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/wants/{{release_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"wants",
+						"{{release_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET user's wantlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/wants",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"wants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET folders in collection",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/collection/folders",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"collection",
+						"folders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a folder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Retro\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/collection/folders",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"collection",
+						"folders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a release to a folder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/collection/folders/2299311/releases/123584",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"collection",
+						"folders",
+						"2299311",
+						"releases",
+						"123584"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Raiting of a release",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"rating\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/collection/folders/0/releases/123584/instances/509636475",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"collection",
+						"folders",
+						"0",
+						"releases",
+						"123584",
+						"instances",
+						"509636475"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve a list of user-defined collection notes fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/collection/fields",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"collection",
+						"fields"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET user's list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}/lists",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}",
+						"lists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a user’s profile data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Olga\",\r\n  \"profile\": \"This is some [b]different sample[/b] data!\",\r\n  \"home_page\": \"http://www.example.com\",\r\n  \"location\": \"Belarus\",\r\n  \"curr_abbr\": \"USD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.discogs.com/users/{{username}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"discogs",
+						"com"
+					],
+					"path": [
+						"users",
+						"{{username}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth1",
+		"oauth1": [
+			{
+				"key": "tokenSecret",
+				"value": "{{oauth_token_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "callback",
+				"value": "https://oauth.pstmn.io/v1/callback",
+				"type": "string"
+			},
+			{
+				"key": "verifier",
+				"value": "{{oauth_verifier}}",
+				"type": "string"
+			},
+			{
+				"key": "nonce",
+				"value": "855646564",
+				"type": "string"
+			},
+			{
+				"key": "timestamp",
+				"value": "1600870809211",
+				"type": "string"
+			},
+			{
+				"key": "token",
+				"value": "{{oauth_token}}",
+				"type": "string"
+			},
+			{
+				"key": "consumerSecret",
+				"value": "{{consumerSecret}}",
+				"type": "string"
+			},
+			{
+				"key": "consumerKey",
+				"value": "{{consumerKey}}",
+				"type": "string"
+			},
+			{
+				"key": "signatureMethod",
+				"value": "PLAINTEXT",
+				"type": "string"
+			},
+			{
+				"key": "version",
+				"value": "1.0",
+				"type": "string"
+			},
+			{
+				"key": "addParamsToHeader",
+				"value": false,
+				"type": "boolean"
+			},
+			{
+				"key": "addEmptyParamsToSign",
+				"value": false,
+				"type": "boolean"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "2d512416-0b87-4210-a926-9118324b87f5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "83dd168c-57d3-4be8-897c-e0ce300437e2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
