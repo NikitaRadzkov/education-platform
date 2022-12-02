@@ -10,9 +10,9 @@ Following this course, you will achieve enlightenment in manual testing of Andro
 
 ## Study Plan
 
-* [Business Correspondence](../containers/business-correspondence/readme.md)
-* [Test Fundamentals](../containers/test-fundamentals/readme.md)
-* [Agile](../containers/agile/readme.md)
-* [Mobile Testing](../containers/testing-mobile/readme.md)
-* [Database SQL Fundamentals](../containers/db-sql/readme.md)
-* [Database NoSQL Fundamentals](../containers/db-nosql/readme.md)
+* [Business Correspondence](../topics/business-correspondence/readme.md)
+* [Test Fundamentals](../topics/test-fundamentals/readme.md)
+* [Agile](../topics/agile/readme.md)
+* [Mobile Testing](../topics/testing-mobile/readme.md)
+* [Database SQL Fundamentals](../topics/db-sql/readme.md)
+* [Database NoSQL Fundamentals](../topics/db-nosql/readme.md)

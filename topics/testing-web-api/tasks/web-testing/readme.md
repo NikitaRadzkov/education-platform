@@ -2,7 +2,7 @@
 
 ## Short Description
 
-Test a website using the knowledge that you got learned from the container.
+Test a website using the knowledge that you got learned from the topic.
 
 ## Estimation (h)
 

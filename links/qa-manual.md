@@ -4,11 +4,11 @@
 
 1.0.0
 
-## Containers
+## topics
 
-* [Test Fundamentals](../containers/test-fundamentals/readme.md)
-* [Mobile Testing](../containers/testing-mobile/readme.md)
-* [Web and API Testing](../containers/testing-web-api/readme.md)
+* [Test Fundamentals](../topics/test-fundamentals/readme.md)
+* [Mobile Testing](../topics/testing-mobile/readme.md)
+* [Web and API Testing](../topics/testing-web-api/readme.md)
 
 ## Courses
 

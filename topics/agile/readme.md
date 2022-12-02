@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This container is intended for giving you an overview of Agile methodology and introduce the most popular Agile
+This topic is intended for giving you an overview of Agile methodology and introduce the most popular Agile
 frameworks.
 
 ## Topics

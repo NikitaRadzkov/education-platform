@@ -24,7 +24,7 @@ You are a Project Manager (congrats!) and your team consists of the following pe
 5. Ann - Junior Frontend Developer.
 
 * Use any suitable task tracking app (Trello, Jira, etc) for creating and assigning the tickets.
-* The plan should be created for a project from some container's tasks, for example, Beer catalog.
+* The plan should be created for a project from some topic's tasks, for example, Beer catalog.
 * You should explain the tasks you've created and by which criteria you've assigned them.
 
 ## Advanced Requirements
