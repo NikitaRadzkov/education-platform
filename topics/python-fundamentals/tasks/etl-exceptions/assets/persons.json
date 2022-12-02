@@ -1,0 +1,32 @@
+[
+    {
+        "name": "John",
+        "last name": "Smith",
+        "birthday": "01/03/1968",
+        "height": 170,
+        "weight": 70.5,
+        "car": true,
+        "car model": "Ford Explorer",
+        "languages": ["en", "fr"]
+    },
+    {
+        "name": "Ivan",
+        "last name": "Petrov",
+        "birthday": "12/09/1980",
+        "height": 180,
+        "weight": 90.4,
+        "car": false,
+        "car model": "",
+        "languages": ["ru", "en"]
+    },
+    {
+        "name": "Satoshi",
+        "last name": "Nakamuro",
+        "birthday": "14/03/1991",
+        "height": 180,
+        "weight": 69.9,
+        "car": true,
+        "car model": "Honda Civic",
+        "languages": ["jp"]
+    }
+]
