@@ -4,7 +4,7 @@
 
 1.0.0
 
-## topics
+## Topics
 
 * [Test Fundamentals](../topics/test-fundamentals/readme.md)
 * [Mobile Testing](../topics/testing-mobile/readme.md)
