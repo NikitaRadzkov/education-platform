@@ -1,0 +1,111 @@
+# .NET Automation Testing
+
+## Version
+
+1.0.0
+
+## Introduction
+
+After this course you will learn the most popular test frameworks for С#,
+get familiar with libraries that allows to conduct REST/API testing.
+
+## Topics
+
+* Test Frameworks
+  * NUnit
+    * Set up Nunit on Visual Studio
+    * Attributes
+    * Assertions
+    * Warnings
+    * Parameterized test
+    * Parallel test execution
+  * XUnit
+    * Attributes
+    * Assertions
+    * Parameterized test
+    * Parallel test execution
+  * MSTest
+    * Attributes
+    * Assertions
+    * Parameterized test
+    * Parallel test execution
+* REST/API testing
+  * RestSharp
+    * What and why
+    * Serialization
+    * Authentication
+    * Request Parameters
+    * Error Handling
+  * Http-client
+    * What and why
+    * Serialization
+    * Authentication
+    * Request Parameters
+    * Error Handling
+
+## Prerequisites
+
+### Technical
+
+* Test Automation Fundamentals
+* .NET Fundamentals
+* Selenium
+
+### Environment
+
+* Browsers
+  * Google Chrome
+  * Firefox
+* Recommended IDE
+  * Visual Studio
+
+## Plan
+
+| Name                                                                                                                                                          | Type          | Short Description                                                                 | Priority | Estimation (h) |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------|----------|----------------|
+| [Top Selenium C# Automation Testing Frameworks For 2020](https://dzone.com/articles/top-selenium-c-automation-testing-frameworks-for-2)                       | article       | Read about the top Selenium C# Automation Testing Frameworks for 2020             | 1        | 0.5            |
+| [Nunit. Get started Nunit on Visual Studio](https://www.youtube.com/watch?v=A16_BzJcoZk)                                                                      | video         | Watch how to install and set up Nunit on Visual Studio 2019                       | 2        | 0.2            |
+| [Nunit. Top annotations](https://www.blazemeter.com/blog/top-nunit-annotations-for-you-to-use)                                                                | article       | Read about top NUnit Annotations                                                  | 1        | 0.3            |
+| [Nunit. Parallel Selenium test execution. Part a](https://www.youtube.com/watch?v=Txhpzx4NkOA)                                                                | video         | Short video about parallel Selenium test execution with NUnit. Part a             | 1        | 0.3            |
+| [Nunit. Parallel Selenium test execution. Part b](https://www.youtube.com/watch?v=18zrtO1l7EU)                                                                | video         | Short video about parallel Selenium test execution with NUnit . Part b            | 1        | 0.2            |
+| [Nunit. Parameterized test example](https://dzone.com/articles/parameterized-test-example-in-the-net-core-using-n)                                            | article       | Read about parameterized test using NUnit                                         | 1        | 0.3            |
+| [Nunit documentation](https://docs.nunit.org/articles/nunit/intro.html)                                                                                       | documentation | Nunit documentation                                                               | 1        | 6              |
+| [xUnit. Getting Started](https://xunit.net/docs/getting-started/netfx/visual-studio)                                                                          | documentation | Read how to get started use xUnit.net with .NET Framework and Visual Studio       | 1        | 3              |
+| [xUnit. Writing tests in .NET using xUnit. Video tutorial](https://www.youtube.com/watch?v=2Wp8en1I9oQ)                                                       | video         | Watch how to get started with xUnit.net                                           | 1        | 0.5            |
+| [xUnit. Running Tests in Parallel](https://xunit.net/docs/running-tests-in-parallel)                                                                          | documentation | Read about running Tests in Parallel                                              | 2        | 1              |
+| [xUnit. Creating parameterised tests](https://andrewlock.net/creating-parameterised-tests-in-xunit-with-inlinedata-classdata-and-memberdata/)                 | article       | Read about creating parameterised tests in xUnit                                  | 1        | 0.5            |
+| [Comparing Attributes and Assertions](https://xunit.github.io/docs/comparisons)                                                                               | documentation | Read more about comparing xUnit.net Attributes and Assertions to other frameworks | 2        | 0.5            |
+| [Xunit Api documentation](https://stakx.github.io/xunit/api/Xunit.html)                                                                                       | documentation | Xunit api documentation                                                           | 2        | 0.5            |
+| [xUnit.net documentation](https://xunit.net/#documentation)                                                                                                   | documentation | xUnit documentation                                                               | 1        | 6              |
+| [MSTest. Selenium + MSTest + C# QuickStart](https://www.youtube.com/watch?v=_8k0pTcNlt8&feature=youtu.be)                                                     | video         | Watch about quickStart Selenium and MSTest                                        | 1        | 0.2            |
+| [MSTest. Exploring asserts](https://www.meziantou.net/mstest-v2-exploring-asserts.htm)                                                                        | article       | Read about MSTest v2: Exploring asserts                                           | 1        | 0.3            |
+| [MSTest. Test lifecycle attributes](https://www.meziantou.net/mstest-v2-test-lifecycle-attributes.htm)                                                        | article       | Read about  MSTest v2: Test lifecycle attributes                                  | 1        | 0.3            |
+| [MSTest. Data tests](https://www.meziantou.net/mstest-v2-data-tests.htm)                                                                                      | article       | Read about MSTest v2: Data tests                                                  | 1        | 0.3            |
+| [MSTest. Execute tests in parallel](https://www.meziantou.net/mstest-v2-execute-tests-in-parallel.htm)                                                        | article       | Read about MSTest v2: Execute tests in parallel                                   | 1        | 0.3            |
+| [MSTest. Testing against multiple frameworks](https://www.meziantou.net/mstest-v2-testing-against-multiple-frameworks.htm)                                    | article       | Read about MSTest v2: Testing against multiple frameworks                         | 2        | 0.3            |
+| [MSTest. Customize test execution](https://www.meziantou.net/mstest-v2-customize-test-execution.htm)                                                          | article       | Read about MSTest v2: Customize test execution                                    | 2        | 0.3            |
+| [MSTest. Create new asserts](https://www.meziantou.net/mstest-v2-create-new-asserts.htm)                                                                      | article       | Read about MSTest v2: Create new asserts                                          | 2        | 0.3            |
+| [MsTest documentation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting?view=mstest-net-1.3.2)                        | documentation | MsTest API documentation                                                          | 2        | 12             |
+| [Ways to Consume RESTful API in C#](https://code-maze.com/different-ways-consume-restful-api-csharp/)                                                         | article       | Read about ways to consume RESTful API in C#                                      | 1        | 1              |
+| [RestSharp documentation](https://restsharp.dev)                                                                                                              | documentation | RestSharp documentation                                                           | 1        | 4              |
+| [RestSharp. RESTful API testing](https://www.ontestautomation.com/restful-api-testing-in-csharp-with-restsharp/)                                              | article       | Read about RESTful API testing in C# with RestSharp                               | 1        | 0.3            |
+| [RestSharp. Implementing of common functionality with RestSharp](https://exceptionnotfound.net/building-the-ultimate-restsharp-client-in-asp-net-and-csharp/) | article       | Read how to implement common functionality with RestSharp]                        | 1        | 0.3            |
+| [HttpClient documentation](https://docs.microsoft.com/ru-ru/dotnet/api/system.net.http.httpclient?view=netframework-4.8)                                      | documentation | HttpClient documentation                                                          | 1        | 1              |
+| [HttpClient tutorial](http://zetcode.com/csharp/httpclient/)                                                                                                  | article       | Read about C# HttpClient tutorial                                                 | 1        | 0.5            |
+| [HttpClient. Examples](https://csharp.hotexamples.com/ru/examples/-/HttpClient/-/php-httpclient-class-examples.html)                                          | article       | Read about C# (CSharp) HttpClient examples                                        | 2        | 3              |
+| [HttpClient. API Testing. Video tutorial](https://www.youtube.com/playlist?list=PLlsKgYi2Lw722PMqESdivKJQgRtJAdbzn)                                           | video         | API Testing Using C# Http Client                                                  | 1        | 3              |
+| [HttpClient. JSON extension methods](https://www.stevejgordon.co.uk/sending-and-receiving-json-using-httpclient-with-system-net-http-json)                    | article       | Read about JSON extension methods for HttpClient                                  | 2        | 0.2            |
+| [Test framework attributes](./tasks/test-attributes/readme.md)                                                                                                | task          | Run tests in defined order using test framework attributes                        | 1        | 3              |
+| [Test framework assertions](./tasks/test-assertions/readme.md)                                                                                                | task          | Verify defined conditions appling MsTest, Nunit, XUnit assertions                 | 1        | 4              |
+| [BDD attributes](./tasks/test-bdd-attribuites/readme.md)                                                                                                      | task          | Create parameterized tests                                                        | 1        | 8              |
+| [Rest/Api testing](./tasks/api-test/readme.md)                                                                                                                | task          | Create solution for API tests with help of RestSharp or/and HTTP libraries.       | 1        | 16             |
+
+## Additional Materials
+
+* [Подводные камни HttpClient в .NET](https://habr.com/ru/post/424873/) - Подводные камни HttpClient в .NET
+
+## Table of Contents
+
+* [Theory](./theory/readme.md)
+* [Tasks](./tasks/readme.md)
+* [Questions](./questions/readme.md)
