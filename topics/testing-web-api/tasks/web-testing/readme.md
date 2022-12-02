@@ -18,7 +18,7 @@ Test a website using the knowledge that you got learned from the topic.
 
 ### Target Application
 
-<http://demo.itechart-group.com:13080/cakes-webpage/>
+<https://www.onliner.by/>
 
 ### Task
 
