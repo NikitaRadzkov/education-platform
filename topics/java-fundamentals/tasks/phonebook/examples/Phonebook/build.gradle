@@ -1,0 +1,23 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.javafundamentals'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	lombok = '1.18.8'
+}
+
+dependencies {
+
+	annotationProcessor "org.projectlombok:lombok:$lombok"
+
+	compileOnly "org.projectlombok:lombok:$lombok"
+
+}

@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.java-fundamentals'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	lombok = '1.18.8'
+	postgresql = '42.2.6'
+}
+
+dependencies {
+
+	annotationProcessor "org.projectlombok:lombok:$lombok"
+
+	compile "org.postgresql:postgresql:$postgresql"
+
+	compileOnly "org.projectlombok:lombok:$lombok"
+
+	runtimeOnly 'org.postgresql:postgresql'
+
+}
