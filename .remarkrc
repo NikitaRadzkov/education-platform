@@ -55,7 +55,7 @@
       ["remark-lint-rule-style", "***"],
       ["remark-lint-strong-marker", false],
       ["remark-lint-table-cell-padding", "padded"],
-      ["remark-lint-table-pipe-alignment", true],
+      ["remark-lint-table-pipe-alignment", false],
       ["remark-lint-table-pipes", true],
       ["remark-lint-unordered-list-marker-style", "*"],
       ["remark-lint-no-empty-sections", true],
