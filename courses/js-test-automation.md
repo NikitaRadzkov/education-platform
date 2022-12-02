@@ -14,6 +14,7 @@ Following this path you will achieve enlightenment in the automation testing usi
 * [Git](../topics/git/readme.md)
 * [Test Automation Fundamentals](../topics/test-automation-fundamentals/readme.md)
 * [JavaScript Fundamentals](../topics/js-fundamentals/readme.md)
+* [TypeScript Fundamentals](../topics/ts-fundamentals/readme.md)
 * [Design Patterns](../topics/design-patterns/readme.md)
 * [Programming Paradigms](../topics/programming-paradigms/readme.md)
 * [JS Automation Testing](../topics/js-automation-testing/readme.md)
