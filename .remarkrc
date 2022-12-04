@@ -54,13 +54,12 @@
       ["remark-lint-ordered-list-marker-value", "ordered"],
       ["remark-lint-rule-style", "***"],
       ["remark-lint-strong-marker", false],
-      ["remark-lint-table-cell-padding", "padded"],
+      ["remark-lint-table-cell-padding", false],
       ["remark-lint-table-pipe-alignment", false],
       ["remark-lint-table-pipes", true],
       ["remark-lint-unordered-list-marker-style", "*"],
       ["remark-lint-no-empty-sections", true],
       ["remark-lint-no-trailing-spaces", true],
-      ["remark-lint-no-dead-urls", {"skipOffline": true, "skipUrlPatterns": ["https://developer.android.com", "https://source.android.com", "https://codelabs.developers.google.com", "https://swagger.io", "https://www.discogs.com", "https://www.postman.com", "https://www.softwaretestinghelp.com", "https://chrome.google.com", "https://www.telerik.com", "https://learnappmaking.com", "https://yoichitgy.github.io", "https://www.raywenderlich.com", "https://academy.realm.io", "https://www.codementor.io"]}],
       ["remark-validate-links", true]
    ]
 }

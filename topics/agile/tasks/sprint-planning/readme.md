@@ -17,10 +17,10 @@ Your goal will be to create a plan with tasks, properly assigned and estimated f
 
 You are a Project Manager (congrats!) and your team consists of the following people:
 
-1. Mike - Senior Fullstack Developer, team lead, the most experienced person on the project.
+1. Alex - Senior Fullstack Developer, team lead, the most experienced person on the project.
 2. Kate - Middle Frontend Developer, very talented, potentially the next team lead.
-3. Alex - Middle Backend Developer.
-4. Dmitry - senior QA engineer.
+3. Mike - Middle Backend Developer.
+4. Dmitry - Senior QA engineer.
 5. Ann - Junior Frontend Developer.
 
 * Use any suitable task tracking app (Trello, Jira, etc) for creating and assigning the tickets.

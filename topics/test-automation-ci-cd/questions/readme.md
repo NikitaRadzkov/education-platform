@@ -258,7 +258,7 @@ Virtual machines are an abstraction of the hardware layer. Each VM is a physical
 </details>
 
 <details>
-<summary>5. What is Jenkins Blue Ocean?</summary>
+<summary>6. What is Jenkins Blue Ocean?</summary>
 
 >**Answer:**
 >Blue Ocean is a modern UI for Jenkins, which helps in a personalized experience with modern design.

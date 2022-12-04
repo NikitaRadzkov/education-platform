@@ -171,7 +171,7 @@
 </details>
 
 <details>
-<summary>2. Name the top web browsers.</summary>
+<summary>2. Name the top web browsers?</summary>
 
 > **Answer:**
 >
@@ -185,7 +185,7 @@
 ### Responsive and Adaptive Design
 
 <details>
-<summary>1. What types of layouts do you know? Briefly describe each.</summary>
+<summary>1. What types of layouts do you know? Briefly describe each?</summary>
 
 > **Answer:**
 >
@@ -330,7 +330,7 @@
 </details>
 
 <details>
-<summary>3. Name rendering engines of several popular browsers.</summary>
+<summary>3. Name rendering engines of several popular browsers?</summary>
 
 > **Answer:**
 >
@@ -378,7 +378,7 @@
 ### Types of Testing
 
 <details>
-<summary>1. Name several principles of Usability.</summary>
+<summary>1. Name several principles of Usability?</summary>
 
 > **Answer:**
 >
@@ -496,7 +496,7 @@
 </details>
 
 <details>
-<summary>4. Describe Guiding Principles of REST.</summary>
+<summary>4. Describe Guiding Principles of REST?</summary>
 
 > **Answer:**
 >

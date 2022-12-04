@@ -5,14 +5,14 @@
 ### Language fundamentals
 
 <details>
-<summary>What is Python?</summary>
+<summary>1. What is Python?</summary>
 
 >**Answer:**
 > Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 </details>
 
 <details>
-<summary>Which typing does Python have?</summary>
+<summary>2. Which typing does Python have?</summary>
 
 >**Answer:**
 > Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
@@ -20,7 +20,7 @@
 
 
 <details>
-<summary>What packing and unpacking operations are used for?</summary>
+<summary>3. What packing and unpacking operations are used for?</summary>
 
 >**Answer:**
 > `*` and the `**` operators both perform two different, but complementary operations depending on where they're used. When used in a method definition, like so:
@@ -47,7 +47,7 @@
 </details>
 
 <details>
-<summary>What is an iterator in python? What is the difference between iterators and iterable objects?</summary>
+<summary>4. What is an iterator in python? What is the difference between iterators and iterable objects?</summary>
 
 >**Answer:**
 > An iterator is an object that contains a countable number of values.
@@ -77,7 +77,7 @@
 </details>
 
 <details>
-<summary>What primitive and common used datatypes do you know?</summary>
+<summary>5. What primitive and common used datatypes do you know?</summary>
 
 >**Answer:**
 > Primitive datatypes in Python are integers, floats, strings, booleans. Python also provides set of useful datatypes such as dicts, lists, sets, frozensets, tuples, datetimes, enums.
@@ -85,7 +85,7 @@
 </details>
 
 <details>
-<summary>What is virtual environment? Why to use it?</summary>
+<summary>6. What is virtual environment? Why to use it?</summary>
 
 > **Answer:**
 > Virtual environment can be considered as a carbon copy of a base version of Python. If you’ve installed Python 3.7.3, for example, then you can create many virtual environments based off of it. When you install a package in a virtual environment, you do it in isolation from other Python environments you may have. Each virtual environment has its own copy of the python executable.
@@ -93,7 +93,7 @@
 </details>
 
 <details>
-<summary>What is pip? What is common used pip commands</summary>
+<summary>7. What is pip? What is common used pip commands</summary>
 
 > **Answer:**
 > pip is a de facto standard package-management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
@@ -102,28 +102,28 @@
 </details>
 
 <details>
-<summary>What is PEP 8?</summary>
+<summary>8. What is PEP 8?</summary>
 
 >**Answer:**
 > PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable.
 </details>
 
 <details>
-<summary>How Python is interpreted?</summary>
+<summary>9. How Python is interpreted?</summary>
 
 >**Answer:**
 > Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed.
 </details>
 
 <details>
-<summary>Mention the use of // operator in Python?</summary>
+<summary>10. Mention the use of // operator in Python?</summary>
 
 >**Answer:**
 > It is a Floor Divisionoperator, which is used for dividing two operands with the result as quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
 </details>
 
 <details>
-<summary>Mention five benefits of using Python?</summary>
+<summary>11. Mention five benefits of using Python?</summary>
 
 >**Answer:**
 > * Python comprises of a huge standard library for most Internet platforms like Email, HTML, etc.
@@ -134,28 +134,28 @@
 </details>
 
 <details>
-<summary>Mention the use of the split function in Python?</summary>
+<summary>12. Mention the use of the split function in Python?</summary>
 
 >**Answer:**
 > The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.
 </details>
 
 <details>
-<summary>What is the difference between list and tuple?</summary>
+<summary>13. What is the difference between list and tuple?</summary>
 
 >**Answer:**
 > The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed for e.g as a key for dictionaries.
 </details>
 
 <details>
-<summary>What are the tools that help to find bugs or perform static analysis?</summary>
+<summary>14. What are the tools that help to find bugs or perform static analysis?</summary>
 
 >**Answer:**
 > PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard.
 </details>
 
 <details>
-<summary>What are the built-in type does python provides?</summary>
+<summary>15. What are the built-in type does python provides?</summary>
 
 >**Answer:**
 > There are mutable and Immutable types of Pythons built in types Mutable built-in types
@@ -171,7 +171,7 @@
 </details>
 
 <details>
-<summary>What is module and package in Python?</summary>
+<summary>16. What is module and package in Python?</summary>
 
 >**Answer:**
 > In Python, module is the way to structure program. Each Python program file is a module, which imports other modules like objects and attributes.
@@ -179,7 +179,7 @@
 </details>
 
 <details>
-<summary>Mention what are the rules for local and global variables in Python?</summary>
+<summary>17. Mention what are the rules for local and global variables in Python?</summary>
 
 >**Answer:**
 > Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
@@ -188,63 +188,63 @@
 
 
 <details>
-<summary>How can you share global variables across modules?</summary>
+<summary>18. How can you share global variables across modules?</summary>
 
 >**Answer:**
 > To share global variables across modules within a single program, create a special module. Import the config module in all modules of your application. The module will be available as a global variable across modules.
 </details>
 
 <details>
-<summary>What is namespace in Python?</summary>
+<summary>19. What is namespace in Python?</summary>
 
 >**Answer:**
 > In Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace. It is like a box where a variable name is mapped to the object placed. Whenever the variable is searched out, this box will be searched, to get corresponding object.
 </details>
 
 <details>
-<summary>What is `pass` in Python?</summary>
+<summary>20. What is `pass` in Python?</summary>
 
 >**Answer:**
 > Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
 </details>
 
 <details>
-<summary>What is unittest in Python?</summary>
+<summary>21. What is unittest in Python?</summary>
 
 >**Answer:**
 > A unit testing framework in Python is known as unittest. It supports sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections etc.
 </details>
 
 <details>
-<summary>In Python what is slicing?</summary>
+<summary>22. In Python what is slicing?</summary>
 
 >**Answer:**
 > A mechanism to select a range of items from sequence types like list, tuple, strings etc. is known as slicing.
 </details>
 
 <details>
-<summary>What is docstring in Python?</summary>
+<summary>23. What is docstring in Python?</summary>
 
 >**Answer:**
 > A Python documentation string is known as docstring, it is a way of documenting Python functions, modules and classes.
 </details>
 
 <details>
-<summary>How can you copy an object in Python?</summary>
+<summary>24. How can you copy an object in Python?</summary>
 
 >**Answer:**
 > To copy an object in Python, you can try copy.copy () or copy.deepcopy() for the general case. You cannot copy all objects but most of them.
 </details>
 
 <details>
-<summary>What is negative index in Python?</summary>
+<summary>25. What is negative index in Python?</summary>
 
 >**Answer:**
 > Python sequences can be index in positive and negative numbers. For positive index, 0 is the first index, 1 is the second index and so forth. For negative index, (-1) is the last index and (-2) is the second last index and so forth.
 </details>
 
 <details>
-<summary>What is iterable comprehensions? What comprehensions do you know?</summary>
+<summary>26. What is iterable comprehensions? What comprehensions do you know?</summary>
 
 >**Answer:**
 > Comprehensions are constructs that allow sequences to be built from other sequences. Python has list, generator, dict and set comprehensions.
@@ -253,7 +253,7 @@
 ### Functions
 
 <details>
-<summary>What is args and kwargs?</summary>
+<summary>1. What is args and kwargs?</summary>
 
 > **Answer:**
 > *args and **kwargs allow you to pass multiple arguments or keyword arguments to a function.
@@ -263,7 +263,7 @@
 </details>
 
 <details>
-<summary>What is a lambda function?</summary>
+<summary>2. What is a lambda function?</summary>
 
 >**Answer:**
 > A lambda function is a small anonymous function.
@@ -278,7 +278,7 @@
 </details>
 
 <details>
-<summary>Why lambda forms in python does not have statements?</summary>
+<summary>3. Why lambda forms in python does not have statements?</summary>
 
 >**Answer:**
 > A lambda form in python does not have statements as it is used to make new function object and then return them at runtime.
@@ -289,7 +289,7 @@
 ### Functions
 
 <details>
-<summary>What is closure?</summary>
+<summary>1. What is closure?</summary>
 
 > **Answer:**
 > A Closure is a function object that remembers values in enclosing scopes even if they are not present in memory.
@@ -299,7 +299,7 @@
 </details>
 
 <details>
-<summary>What is mutual default arguments problem?</summary>
+<summary>2. What is mutual default arguments problem?</summary>
 
 >**Answer:**
 > Python’s default arguments are evaluated once when the function is defined, not each time the function is called. This means that if you use a mutable default argument and mutate it, you will and have mutated that object for all future calls to the function as well.
@@ -331,7 +331,7 @@
 </details>
 
 <details>
-<summary>What is a generator in python? What `yield` keyword is used for?</summary>
+<summary>3. What is a generator in python? What `yield` keyword is used for?</summary>
 
 >**Answer:**
 > Python generators are a simple way of creating iterators.
@@ -368,7 +368,7 @@
 </details>
 
 <details>
-<summary>What is a decorator?</summary>
+<summary>4. What is a decorator?</summary>
 
 >**Answer:**
 > In Python, functions are the first class objects, which means that –
@@ -415,7 +415,7 @@
 ### Built-ins
 
 <details>
-<summary>What Python provides to provide capabilities to write code in functional way?</summary>
+<summary>1. What Python provides to provide capabilities to write code in functional way?</summary>
 
 > **Answer:**
 > Python provides comprehensions and functions like map, filter and reduce to facilitate function programming support.
@@ -423,7 +423,7 @@
 </details>
 
 <details>
-<summary>What package provides you functions to interact with operation system, make syscalls, access enviroment variables and etc.?</summary>
+<summary>2. What package provides you functions to interact with operation system, make syscalls, access enviroment variables and etc.?</summary>
 
 > **Answer:**
 > os - miscellaneous operating system interfaces. This module provides a portable way of using operating system dependent functionality. If you just want to read or write a file see open(), if you want to manipulate paths, see the os.path module, and if you want to read all the lines in all the files on the command line see the fileinput module. For creating temporary files and directories see the tempfile module, and for high-level file and directory handling see the shutil module.
@@ -431,7 +431,7 @@
 </details>
 
 <details>
-<summary>What are setattr, getattr, hasattr builtins?</summary>
+<summary>3. What are setattr, getattr, hasattr builtins?</summary>
 
 > **Answer:**
 > These methods allow to achieve reflection in applications.Reflection is the ability of a computer program to examine and modify its own properties at runtime.
@@ -442,7 +442,7 @@
 </details>
 
 <details>
-<summary>What Python dir function does?</summary>
+<summary>4. What Python dir function does?</summary>
 
 > **Answer:**
 > dir() tries to return a valid list of attributes of the object it is called upon. Also, dir() function behaves rather differently with different type of objects, as it aims to produce the most relevant one, rather than the complete information.
@@ -453,7 +453,7 @@
 </details>
 
 <details>
-<summary>What is collections module?</summary>
+<summary>5. What is collections module?</summary>
 
 > **Answer:**
 > Collections module implements specialized container datatypes providing alternatives to Python’s general purpose built-in containers, dict, list, set, and tuple. 
@@ -475,14 +475,14 @@
 ### File IO
 
 <details>
-<summary>What is pickling and unpickling?</summary>
+<summary>1. What is pickling and unpickling?</summary>
 
 >**Answer:**
 > Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling.
 </details>
 
 <details>
-<summary>How can files be deleted in Python?</summary>
+<summary>2. How can files be deleted in Python?</summary>
 
 >**Answer:**
 > To delete a file in Python, you need to import the OS Module. After that, you need to use the os.remove() function.
@@ -493,7 +493,7 @@
 </details>
 
 <details>
-<summary>What modes for opening files do you know?</summary>
+<summary>3. What modes for opening files do you know?</summary>
 
 >**Answer:**
 > **r** - Opens a file for reading only. The file pointer is placed at the beginning of the file. This is the default mode.
@@ -524,7 +524,7 @@
 ### OOP
 
 <details>
-<summary>Explain Inheritance in Python.</summary>
+<summary>1. Explain Inheritance in Python.</summary>
 
 >**Answer:**
 > Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
@@ -539,7 +539,7 @@
 </details>
 
 <details>
-<summary>What is a magic method?</summary>
+<summary>2. What is a magic method?</summary>
 
 >**Answer:**
 > Magic methods in Python are the special methods which add "magic" to your class. Magic methods are not meant to be invoked directly by you, but the invocation happens internally from the class on a certain action. For example, when you add two numbers using the `+` operator, internally, the `__add__()` method will be called.
@@ -593,7 +593,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 
 
 <details>
-<summary>What is a metaclass?</summary>
+<summary>3. What is a metaclass?</summary>
 
 >**Answer:**
 > A metaclass is the class of a class. A class defines how an instance of the class (i.e. an object) behaves while a metaclass defines how a class behaves. A class is an instance of a metaclass.
@@ -609,7 +609,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 
 <details>
 
-<summary>What Is Hashable object?</summary>
+<summary>4. What Is Hashable object?</summary>
 
 >**Answer:**
 >
@@ -624,7 +624,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 
 <details>
 
-<summary>How is Multithreading achieved in Python?</summary>
+<summary>1. How is Multithreading achieved in Python?</summary>
 
 >**Answer:**
 >
@@ -637,7 +637,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 
 <details>
 
-<summary>What is asyncio?</summary>
+<summary>2. What is asyncio?</summary>
 
 >**Answer:**
 >
@@ -648,7 +648,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 </details>
 
 <details>
-<summary>What is the Python GIL?</summary>
+<summary>3. What is the Python GIL?</summary>
 
 >**Answer:**
 > The Python Global Interpreter Lock or GIL, in simple words, is a mutex (or a lock) that allows only one thread to hold the control of the Python interpreter.
@@ -657,7 +657,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 </details>
 
 <details>
-<summary>How does await works in python?</summary>
+<summary>4. How does await works in python?</summary>
 
 >**Answer:**
 > await , similar to yield from , suspends the execution of the coroutine until the awaitable it takes completes and returns the result. async function result (coroutines) is meant to be added to event-loop. Yes. await creates "bridge" between event-loop and awaited coroutine (enabling the next point).
@@ -666,7 +666,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 ### Garbage Collection
 
 <details>
-<summary>What is garbage collection in Python?</summary>
+<summary>1. What is garbage collection in Python?</summary>
 
 >**Answer:**
 >
@@ -674,7 +674,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 </details>
 
 <details>
-<summary>How does garbage collection works in Python?</summary>
+<summary>2. How does garbage collection works in Python?</summary>
 
 >**Answer:**
 > Python's garbage collector runs during program execution and is triggered when an object's reference count reaches zero. An object's reference count changes as the number of aliases that point to it changes.
@@ -683,7 +683,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 </details>
 
 <details>
-<summary>How memory is managed in Python?</summary>
+<summary>3. How memory is managed in Python?</summary>
 
 >**Answer:**
 > Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.
@@ -693,7 +693,7 @@ between `_a`, `__a` and `__a__` attribute names?</summary>
 
 
 <details>
-<summary>What module provides an interface to the optional garbage collector?</summary>
+<summary>4. What module provides an interface to the optional garbage collector?</summary>
 
 >**Answer:**
 > gc

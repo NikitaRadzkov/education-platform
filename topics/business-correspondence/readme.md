@@ -27,8 +27,8 @@ MS outlook or any other email client
 
 | Name                                                                          | Type         | Short Description                          | Priority | Estimation (h) |
 | ----------------------------------------------------------------------------- | ------------ | ------------------------------------------ | -------- | -------------- |
-| [Business Correspondence](https://1drv.ms/p/s!As8AujQS8DYUiKopZahg1Uc_vshBQQ) | presentation | Read about Business Correspondence basics. | 1        | 2              |
-| [Email English](https://1drv.ms/w/s!As8AujQS8DYUiKoq5xm-IPcJEXZHDQ)           | document     | See basic vocabulary.                      | 1        | 1              |
+| [Business Correspondence](https://www.toppr.com/guides/business-communication-and-ethics/business-correspondence/meaning-and-importance-of-business-correspondence) | article | Read about Business Correspondence basics. | 1        | 2              |
+| [Email English](https://www.inenglishwithlove.com/blog/how-to-write-an-email-in-english)           | article     | See basic vocabulary.                      | 1        | 1              |
 | [Email of suggestion](./tasks/email-suggestion/readme.md)                     | task         | Compose an email to the customer.          | 1        | 0.5            |
 | [Email of refusal](./tasks/email-refusal/readme.md)                           | task         | Compose an email to the customer.          | 1        | 0.5            |
 | [Email of complaint](./tasks/email-complaint/readme.md)                       | task         | Compose an email to the customer.          | 1        | 0.5            |

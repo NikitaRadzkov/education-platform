@@ -104,7 +104,7 @@ Here we will learn JS Automation Testing approaches and frameworks.
 | [Selenium Webdriver docs](https://www.selenium.dev/selenium/docs/api/javascript/index.html)                              | documentation | Read about Selenium for JS.                               | beginner | optional | 2              |
 | [Playwright docs](https://playwright.dev/docs/intro)                                                 | documentation | Read about Playwright framework.                             | beginner | optional | 2              |
 | [Playwright tutorial videos](https://www.youtube.com/watch?v=VKvZSpSWDZw&t=27s&ab_channel=Lethcode)                       | video         | Watch Playwright video tutorials.                            | beginner | required | 0.4              |
-| [Playwright](./tasks/playwright/readme.md)                                                                                     | 
+| [Playwright](./tasks/playwright/readme.md)                                                                                |
 | [Cypress docs](https://docs.cypress.io/guides/overview/why-cypress.html)                                                 | documentation | Read about Cypress framework.                             | beginner | optional | 2              |
 | [Cypress tutorial videos](https://docs.cypress.io/examples/examples/tutorials.html#Best-Practices)                       | video         | Watch Cypress video tutorials.                            | beginner | required | 3              |
 | [Cypress](./tasks/cypress/readme.md)                                                                                     | task          | Set up video recording of a simple test in Cypress.       | beginner | required | 8              |

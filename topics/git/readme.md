@@ -54,6 +54,7 @@ how to create and manage branches and commits. Git will become your friend for d
   * Git Workflows
     * Git Feature Branch Workflow
     * Gitflow Workflow
+    * Trunk-based development
     * Git guidelines
   * Git hooks
 
@@ -78,6 +79,7 @@ Git will be studied from scratch, so there is no need for any input knowledge.
 | [Git Guidelines and Best Practices](https://github.com/Islandora/islandora/wiki/Git-Guidelines-and-Best-Practices) | article       | Best practices to work with Git b                        | 2        | 1              |
 | [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | documentation | Workflow description.                                    | 2        | 1              |
 | [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)                   | documentation | Workflow description.                                    | 1        | 1              |
+| [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)                   | article | Workflow description.                                    | 1        | 1              |
 | [About pull requests](https://help.github.com/en/articles/about-pull-requests)                                     | documentation | Read about PR basics.                                    | 1        | 1              |
 | [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)                                | documentation | Comparing git rebase with the related git merge command. | 2        | 1              |
 | [Git Feature Branch Workflow](./tasks/feature-branch-workflow/readme.md)                                           | task          | Create repository using feature branch workflow.         | 1        | 8              |

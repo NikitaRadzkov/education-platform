@@ -2,7 +2,7 @@
 
 ## Short Description
 
-Create a console application and work whith asynchronous methods
+Create a console application and work with asynchronous methods
 
 ## Estimation (h)
 

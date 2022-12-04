@@ -19,5 +19,5 @@ Expand you project to framework
 
 ## Requirements
 
-* Investigate [Custom Framefork](https://docs.google.com/presentation/d/1-B9VZzvzQWRRT9YKibydU1zrGpqHYzXbtYMTa1eT5wM)
+* Investigate [Custom Framework](https://medium.com/maestral-solutions/using-custom-web-element-models-in-selenium-testing-framework-91db29e81bf)
 * Expand your last task to get a fully framework
