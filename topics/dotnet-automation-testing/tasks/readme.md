@@ -8,7 +8,7 @@
 ## List of Tasks
 
 | Name                                                     | Type | Short description                                                           | Priority | Estimation (h) |
-|----------------------------------------------------------|------|-----------------------------------------------------------------------------|----------|----------------|
+| -------------------------------------------------------- | ---- | --------------------------------------------------------------------------- | -------- | -------------- |
 | [Test framework attributes](./test-attributes/readme.md) | task | Run tests in defined order using test framework attributes                  | 1        | 3              |
 | [Test framework assertions](./test-assertions/readme.md) | task | Verify defined conditions appling MsTest, Nunit, XUnit assertions           | 1        | 4              |
 | [DDT attributes](./test-ddt-attribuites/readme.md)       | task | Create parameterized tests                                                  | 1        | 8              |

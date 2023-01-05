@@ -17,6 +17,6 @@ Download and investigate custom test framework, run web robot test
 ## Requirements
 
 * Install [robot framework](https://github.com/kotmatroskin92/selenium_robot/tree/implement_mobile).
-  This framework may be used or your own solution.
+    This framework may be used or your own solution.
 * Investigate framework structure and possibility
 * Run GoogleSearchTest.robot

@@ -44,4 +44,4 @@ def display_files(*files):
 * Generator should yield line after line from the first file, then from the second, and so on.
 * When the last file is read, it stops.
 * User of the generator can also throw an exception into the generator (SkipThisFile) which signals the generator to
-  skip the rest of the current file, and just yield a dummy value to be skipped.
+    skip the rest of the current file, and just yield a dummy value to be skipped.

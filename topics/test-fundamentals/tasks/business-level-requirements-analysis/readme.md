@@ -34,4 +34,4 @@ being developed and the objectives of the customer requesting the development of
 
 * Give answers to your questions on behalf of the customers
 * Think over if you have enough information for understanding the aim and common vision of the projects; if not,
-  reformulate your questions to get clearer answers or ask new ones
+    reformulate your questions to get clearer answers or ask new ones

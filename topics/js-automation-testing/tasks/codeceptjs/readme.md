@@ -22,7 +22,7 @@ Creating data necessary for the test using Hooks via API
 
 ### Test Case
 
-Resource: [https://petstore.swagger.io/](https://petstore.swagger.io/)
+Resource: <https://petstore.swagger.io/>
 
 Precondition:
 

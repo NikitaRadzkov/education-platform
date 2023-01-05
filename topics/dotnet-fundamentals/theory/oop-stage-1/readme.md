@@ -32,7 +32,7 @@ This theory provides basic OOP knowledge and principles in the C# language.
 ## Materials
 
 | Name                                                                                                                                      | Type    | Short Description                                                          | required | Estimation (h) |
-|-------------------------------------------------------------------------------------------------------------------------------------------|---------|----------------------------------------------------------------------------|----------|----------------|
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------- | -------- | -------------- |
 | [Classes and objects](https://metanit.com/sharp/tutorial/3.1.php)                                                                         | article | Read about Classes and objects.                                            | required | 0.5            |
 | [Structures](https://metanit.com/sharp/tutorial/2.13.php)                                                                                 | article | Read about Structures.                                                     | required | 0.3            |
 | [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)                                 | article | Read about Structure types.                                                | required | 0.5            |

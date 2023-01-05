@@ -147,7 +147,7 @@ itself here, with the minimum of environment-specific notes.
 ## Plan
 
 | Name                                                                                          | Type               | Short Description                                     | Level        | Required | Estimation (h) |
-|-----------------------------------------------------------------------------------------------|--------------------|-------------------------------------------------------|--------------|----------|----------------|
+| --------------------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------- | ------------ | -------- | -------------- |
 | [JS Fundamentals tutorial (Stage 1)](./theory/js-fundamentals-tutorial-stage-1/readme.md)     | documentation part | Learn JS fundamentals.                                | beginner     | required | 24             |
 | [JS Fundamentals tutorial (Stage 2)](./theory/js-fundamentals-tutorial-stage-2/readme.md)     | documentation part | Learn JS fundamentals.                                | intermediate | required | 16             |
 | [JS Fundamentals tutorial (Stage 3)](./theory/js-fundamentals-tutorial-stage-3/readme.md)     | documentation part | Learn JS fundamentals.                                | advanced     | required | 10             |
@@ -164,4 +164,4 @@ itself here, with the minimum of environment-specific notes.
 
 * [JS Newsletter](https://javascriptweekly.com/) - A newsletter of JavaScript articles, news and cool projects.
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - A series of books diving deep into the core
-  mechanisms of the JS language.
+    mechanisms of the JS language.

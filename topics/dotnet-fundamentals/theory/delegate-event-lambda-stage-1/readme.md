@@ -17,7 +17,7 @@ This theory provides fundamental knowledge about Delegates, Events, and Lambda E
 ## Materials
 
 | Name                                                                                                                         | Type    | Short Description                                                     | required | Estimation (h) |
-|------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------|----------|----------------|
+| ---------------------------------------------------------------------------------------------------------------------------- | ------- | --------------------------------------------------------------------- | -------- | -------------- |
 | [Delegates](https://metanit.com/sharp/tutorial/3.13.php)                                                                     | article | Read about Delegates.                                                 | required | 0.4            |
 | [Using delegates](https://metanit.com/sharp/tutorial/3.43.php)                                                               | article | Read about Using delegates.                                           | required | 0.3            |
 | [Anonymous methods](https://metanit.com/sharp/tutorial/3.15.php)                                                             | article | Read about Anonymous methods.                                         | required | 0.4            |

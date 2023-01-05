@@ -18,7 +18,7 @@ Implement logging of each method call for a class.
 ## Requirements
 
 * Implement a simple class with 3 methods: 1st raising exception, 2nd returning
-  None and 3rd returning 'Hello, {name}!' where name is an argument
+    None and 3rd returning 'Hello, {name}!' where name is an argument
 * Implement a metaclass to log all the method calls
 * Use this metaclass for class from 1st point
 * Logging should have 3 levels: error, info and warning

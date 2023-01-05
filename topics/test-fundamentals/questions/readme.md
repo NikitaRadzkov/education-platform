@@ -11,6 +11,7 @@
 > that software product is defect free. It involves execution of software/system components using manual or automated
 > tools to evaluate one or more properties of interest. The purpose of software testing is to identify errors, gaps or
 > missing requirements in contrast to actual requirements.
+
 </details>
 
 <details>
@@ -25,6 +26,7 @@
 > **Quality Control** is the set of methods used to verify the quality of the output delivered by the software. QC is
 > more of a product-specific activity in which tools and equipment are used to confirm that the customer's requirements
 > are continually met. Thus, QC is product-oriented.
+
 </details>
 
 <details>
@@ -37,6 +39,7 @@
 >
 > **Validation** tests how well you addressed the business needs that caused you to write those requirements. It is also
 > sometimes called acceptance or business testing. "Did I build what I need?"
+
 </details>
 
 <details>
@@ -50,7 +53,7 @@
 > * Testing
 > * Deployment
 > * Maintenance
->
+
 </details>
 
 ## Testing Process
@@ -64,7 +67,7 @@
 > * Test preparation
 > * Test execution
 > * Test reporting and metrics
->
+
 </details>
 
 ## Test Documentation
@@ -80,6 +83,7 @@
 >
 > Creating **test cases** is extremely time-consuming. Much like code, its requirements can change with every sprint,
 > rendering your test cases obsolete, and warranting an update.
+
 </details>
 
 <details>
@@ -97,7 +101,7 @@
 > * Environments
 > * Resources
 > * Estimates
->
+
 </details>
 
 ## Bug Reporting
@@ -113,15 +117,22 @@
 > * **New** – a new defect has been raised by testers and is awaiting assignment to a developer for resolution.
 > * **Assigned** – the defect has been assigned to a developer for resolution.
 > * **Rejected** – the developer was unable to reproduce the defect and has rejected the defect report, returning it to
+>
 > the tester that raised it.
+>
 > * **Fixed** – the developer has fixed the defect and checked in the appropriate code.
 > * **Ready for test** – the release manager has built the corrected code into a release and has passed that release to
-> the tester for retesting.
-> * **Failed retest** – the defect is still present in the corrected code and the defect is passed back to the
-> developer.
-> * **Closed** – the defect has been correctly fixed and the defect report may be closed, subsequent to review by a test
-> lead.
 >
+> the tester for retesting.
+>
+> * **Failed retest** – the defect is still present in the corrected code and the defect is passed back to the
+>
+> developer.
+>
+> * **Closed** – the defect has been correctly fixed and the defect report may be closed, subsequent to review by a test
+>
+> lead.
+
 </details>
 
 <details>
@@ -130,27 +141,40 @@
 > **Answer:**
 >
 > * **Title** - A unique, concise and descriptive title for a defect is vital. It will allow the defect to be easily
+>
 > identified and discussed.
+>
 > * **Severity** - An assessment of the impact of the defect on the end user.
 > * **Status** - The current status of the defect.
 > * **Initial configuration** - The state of the program before the actions in the "steps to reproduce" are to be
+>
 > followed. All too often this is omitted and the reader must guess or intuit the correct pre-requisites for reproducing
 > the defect.
+>
 > * **Software Configuration** - The version and release of software-under-test as well as any relevant hardware or
+>
 > software platform details.
+>
 > * **Steps to Reproduce** - An ordered series of steps to reproduce the defect
 > * **Expected behaviour** - What was expected of the software, upon completion of the steps to reproduce.
 > * **Actual behaviour** - What the software actually does when the steps to reproduce are followed.
 > * **Impact** - An assessment of the impact of the defect on the software-under-test. It is important to include
+>
 > something beyond the simple "severity" to allow readers to understand the context of the defect report.
+>
 > * **Proposed solution** - An optional item of information testers can supply is a proposed solution. Testers often
+>
 > have unique and detailed information of the products they test and suggesting a solution can save designers and
 > developers a lot of time.
-> * **Priority** - An optional field to allow development managers to assign relative priorities to defects of the same
-> severity
-> * **Root Cause** - An optional field allowing developers to assign a root cause to the defect such as "inadequate
-> requirements" or "coding error"
 >
+> * **Priority** - An optional field to allow development managers to assign relative priorities to defects of the same
+>
+> severity
+>
+> * **Root Cause** - An optional field allowing developers to assign a root cause to the defect such as "inadequate
+>
+> requirements" or "coding error"
+
 </details>
 
 <details>
@@ -171,6 +195,7 @@
 > Example: high severity and low priority - In a social networking site, if a beta version of a new feature is released
 > with not many active users using that facility as of today. Any defect found on this feature can be classified as a
 > low priority as the feature takes back seat due to business classification as not important.
+
 </details>
 
 <details>
@@ -182,29 +207,29 @@
 > cause.
 >
 > When you find a high-impact unrepeatable bug, continue to gather evidence as you perform other testing tasks. Whenever
-> you see the bug, _save all the information_ you can. Create a special folder and save stack traces, screen shots,
+> you see the bug, *save all the information* you can. Create a special folder and save stack traces, screen shots,
 > notes, and anything else that seems relevant to the case. Revisit the folder and review the data, so that when you
 > work with developers on these kinds of bugs, you have information to help them troubleshoot.
 >
-> Check the bug database for _similar bugs_. Unrelated unrepeatable bugs can have identical stack traces in the bug
+> Check the bug database for *similar bugs*. Unrelated unrepeatable bugs can have identical stack traces in the bug
 > reports. They can be related to the same problem.
 >
-> Instead of focusing on details, _start by finding patterns_. It is often more important to look at the big picture
+> Instead of focusing on details, *start by finding patterns*. It is often more important to look at the big picture
 > than to look at the steps you took to get there. Watch for patterns among the different sightings of the bug. When
 > talking to others, ask questions and watch for patterns in their answers. If you get a hunch about a particular
 > pattern, ask if anyone noticed that pattern.
 >
 > Remember that the GUI may not be the best place to repeat all bugs. Many unrepeatable bugs are caused by conditions
 > deep in the program code or in the thirdparty software that the application uses. In many cases, the bugs can
-> consistently be reproduced when using a testable interface _behind the GUI_.
+> consistently be reproduced when using a testable interface *behind the GUI*.
 >
-> _Use automated testing tools_ to help track down unrepeatable bugs. Automated tests can quickly simulate conditions
+> *Use automated testing tools* to help track down unrepeatable bugs. Automated tests can quickly simulate conditions
 > that are difficult for a single tester to repeat. Sporadic errors can be repeated more often when running certain
 > tests quickly with a tool, and test scripts can be developed when a scenario seems to cause the bug more frequently.
+
 </details>
 
 ## Testing Methodology
-
 
 <details>
 <summary>1. Name four Levels of testing. Briefly describe each.</summary>
@@ -215,7 +240,7 @@
 > * **Integration Testing.** Checks the data flow from one module to other modules.
 > * **System Testing.** Evaluates both functional and non-functional needs for the testing. Tests the entire system.
 > * **Acceptance Testing.** Checks the requirements of a specification or contract are met as per its delivery.
->
+
 </details>
 
 <details>
@@ -231,6 +256,7 @@
 > **White Box Testing** is software testing technique in which internal structure, design and coding of software are
 > tested to verify flow of input-output and to improve design, usability and security. In white box testing, code is
 > visible to testers.
+
 </details>  
 
 <details>
@@ -244,6 +270,7 @@
 > **Non-functional testing** is a type of testing to check non-functional aspects (performance, usability, reliability,
 > etc.) of a software application. It is explicitly designed to test the readiness of a system as per nonfunctional
 > parameters which are never addressed by functional testing.
+
 </details>  
 
 <details>
@@ -258,7 +285,7 @@
 > * Recovery Testing
 > * Compliance Testing
 > * Documentation Testing
->
+
 </details>  
 
 <details>
@@ -278,6 +305,7 @@
 > **Regression Testing** is known as generic testing whereas **Retesting** is planned testing.
 >
 > **Regression Testing** is possible with the use of automation whereas **Retesting** is not possible with automation.
+
 </details>  
 
 ## Test Design Techniques
@@ -299,6 +327,7 @@
 >
 > Each test design technique is suitable for identifying a particular type of software defect. The selected test design
 > technique should meet the testing objectives and the result of risk and complexity analysis.
+
 </details>  
 
 <details>
@@ -319,6 +348,7 @@ Testing.</summary>
 >
 > **Pairwise Testing** (or All-Pairs Testing) - black-box test design technique in which test cases are designed to
 > execute all possible discrete combinations of each pair of input parameters.
+
 </details>  
 
 <details>
@@ -327,20 +357,27 @@ Testing.</summary>
 > **Answer:**
 >
 > * **Statement Coverage** is a white box testing technique in which all the executable statements in the source code
+>
 > are executed at least once. It is used for calculation of the number of statements in source code which have been
 > executed. The main purpose of Statement Coverage is to cover all the possible paths, lines and statements in source
 > code.
+>
 > * **Decision Coverage** is a white box testing technique which reports the true or false outcomes of each boolean
+>
 > expression of the source code. The goal of decision coverage testing is to cover and validate all the accessible
 > source code by checking and ensuring that each branch of every possible decision point is executed at least once.
+>
 > * **Branch Coverage** is a white box testing method in which every outcome from a code module(statement or loop) is
+>
 > tested. The purpose of branch coverage is to ensure that each decision condition from every branch is executed at
 > least once. It helps to measure fractions of independent code segments and to find out sections having no branches.
+>
 > * **Condition Coverage** or expression coverage is a testing method used to test and evaluate the variables or
+>
 > sub-expressions in the conditional statement. The goal of condition coverage is to check individual outcomes for each
 > logical condition. Condition coverage offers better sensitivity to the control flow than decision coverage. In this
 > coverage, expressions with logical operands are only considered.
->
+
 </details>
 
 <details>
@@ -360,7 +397,7 @@ Testing.</summary>
 > goals, plan, or target. Without these specifications, Ad-hoc testing is difficult to manage or measure and any bugs
 > that are discovered will be a challenge to reproduce. The testers who perform this testing should have a very good and
 > in-depth knowledge of the product or application.
->
+
 </details>
 
 ## Requirements Analysis
@@ -371,15 +408,22 @@ Testing.</summary>
 > **Answer:**
 >
 > * **Brainstorming** - can be used to gather a good number of ideas from a group of people (development team, customers
+>
 > or user representatives, stakeholders).
+>
 > * **Document Analysis** - evaluating the documentation of a present system can assist when making AS-IS process
+>
 > documents and also when driving the gap analysis for scoping of the migration projects.
+>
 > * **Observation** - by watching users, a process flow, pain points, awkward steps and opportunities can be determined by
+>
 > an analyst for improvement.
+>
 > * **Prototyping** - people are not able to articulate a specific need in the abstract, but they can swiftly review
+>
 > whether a design approach would satisfy the need, so prototypes are very effectively done with fast sketches of
 > storyboards and interfaces.
->
+
 </details>
 
 <details>
@@ -390,11 +434,14 @@ Testing.</summary>
 > There are three main levels of requirements:
 >
 > * **Business Requirements** describe why we're developing the product, what benefits of the new product on the market,
+>
 > business objectives, etc.
+>
 > * **User Requirements** are needed to answer the question: "What will users be able to do with the system?"
 > * **Functional Requirements** describe functionality that is going to be developed and that is important for users to
-> reach their goals.
 >
+> reach their goals.
+
 </details>
 
 <details>
@@ -404,11 +451,13 @@ Testing.</summary>
 >
 > * **Complete.** A requirement is self-contained and there is no missing information.
 > * **Consistent.** Requirements are consistent with each other in terms of requirement format, content, meaning
+>
 > interpretation, and interrelationship among requirements that are related.
+>
 > * **Atomic.** A requirement can't be divided into several more detaied requirements without losing completeness.
 > * **Relevant.** A requirement hasn't become obsolete after time has passed.
 > * **Estimable.** You must always be able to estimate the size of a requirement.
->
+
 </details>
 
 **[⬆ back to top](#exam-questions)**

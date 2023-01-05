@@ -18,7 +18,7 @@ This theory provides basic knowledge of throwing and handling exceptions.
 ## Materials
 
 | Name                                                                                                             | Type    | Short Description                                         | required | Estimation (h) |
-|------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------|----------|----------------|
+| ---------------------------------------------------------------------------------------------------------------- | ------- | --------------------------------------------------------- | -------- | -------------- |
 | [Try..catch..finally](https://metanit.com/sharp/tutorial/2.14.php)                                               | article | Read about Try, Catch, and Finally blocks.                | required | 0.5            |
 | [Block catch and exception filters](https://metanit.com/sharp/tutorial/2.28.php)                                 | article | Read about Block catch and exception filters.             | required | 0.3            |
 | [Exception types. Exception class](https://metanit.com/sharp/tutorial/2.29.php)                                  | article | Read about Exception types and Exception class.           | required | 0.3            |

@@ -96,7 +96,7 @@ libraries that allows to conduct REST/API testing.
 * [Why Robot Framework](https://habr.com/ru/company/maxilect/blog/470924/) - Why robot is good for project
 * [PyTest. Work with fixtures](https://habr.com/ru/post/448786/) - Work with PyTest, fixtures
 * [Stale Element Reference Exception](http://allselenium.info/handle-stale-element-reference-exception-python-selenium/)
-  \- Stale Element Reference Exception in Python Selenium
+    \- Stale Element Reference Exception in Python Selenium
 
 ## Table of Contents
 

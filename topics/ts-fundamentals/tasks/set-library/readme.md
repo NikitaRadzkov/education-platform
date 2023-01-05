@@ -18,8 +18,8 @@ You are to implement a custom set type.
 ## Requirements
 
 * The library should provide basic methods
-  [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) including the following
-  functionality:
+    [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) including the following
+    functionality:
 
 ```typescript
 intersectWith(customSet: YourCustomSet)

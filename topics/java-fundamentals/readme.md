@@ -71,7 +71,7 @@ You will get familiar with Java fundamentals and will learn how to use it for wr
 ## Plan
 
 | Name                                                                                                  | Type          | Short Description                                               | Level        | Required | Estimation (h) |
-|-------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------|--------------|----------|----------------|
+| ----------------------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------- | ------------ | -------- | -------------- |
 | [Java Tutorials](https://docs.oracle.com/javase/tutorial/java/)                                       | documentation | Oracle Java documentation                                       | beginner     | required | 20             |
 | [Java fundamentals OOP](./theory/java-fundamentals-oop/readme.md)                                     | theory group  | Introduction to Java OOP                                        | beginner     | required | 5              |
 | [Java fundamentals language basics](./theory/java-fundamentals-language-basics/readme.md)             | theory group  | Introduction to Java basics                                     | beginner     | required | 8              |
@@ -98,22 +98,22 @@ You will get familiar with Java fundamentals and will learn how to use it for wr
 ## Additional Materials
 
 * [Boxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html) - Java documentation article about
-  autoboxing and unboxing
+    autoboxing and unboxing
 * [Default methods in interfaces](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html) - Java
-  documentation article about default methods
+    documentation article about default methods
 * [Functional interfaces/Lambdas](https://www.baeldung.com/java-8-functional-interfaces) - Article about functional
-  interfaces, lambdas in Java 8
+    interfaces, lambdas in Java 8
 * [Generics type erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html) - Java documentation
-  article about type erasure
+    article about type erasure
 * [Java NIO vs IO](https://medium.com/@nilasini/java-nio-non-blocking-io-vs-io-1731caa910a2) - Comparative article of
-  I/0 and NIO
+    I/0 and NIO
 * [Java Basics Video Tutorial](https://www.youtube.com/playlist?list=PLFE2CE09D83EE3E28) - It can help you to pick up
-  some bits of knowledge or close the gaps in Java Basics by this playlist
+    some bits of knowledge or close the gaps in Java Basics by this playlist
 * [JUG Channel](https://www.youtube.com/user/JUGRuVideo/featured) - Channel dedicated to meetups and java conferences
-  from JUG/JPoint/Joker/Jbreak etc. It can help you with some additional information
+    from JUG/JPoint/Joker/Jbreak etc. It can help you with some additional information
 * [Regular expression tool](https://regexr.com/) - It helps you to build and test regular expression
 * [Regular expression test tool](http://myregexp.com/) - Online regular expression tester
-* [Browser interview question](https://www.youtube.com/watch?v=ylG8_d9Qk1U) - What browser does to open a Web-page
+* [Browser interview question](https://www.youtube.com/watch?v=ylG8\_d9Qk1U) - What browser does to open a Web-page
 * [Network interview questions](https://questions.wizardzines.com) - Interview questions for networks
 
 ## Table of Contents

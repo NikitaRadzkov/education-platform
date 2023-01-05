@@ -17,7 +17,7 @@ Fulfill following tasks for beginner level.
 ## Requirements
 
 * Create a simple calculator with at least 4 functions: addition, subtraction, multiplying, division.
-  Use console input/output.
+    Use console input/output.
 * Design code logic to solve tasks below. (Don't use Google to find ready solutions)
   * Transpose a matrix матрицу)
   * Turn a matrix on 90 degrees clockwise

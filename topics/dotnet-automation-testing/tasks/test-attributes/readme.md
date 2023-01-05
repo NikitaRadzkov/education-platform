@@ -29,5 +29,5 @@ Add test framework attributes for the tasks complition.
   * TestSuite3:
     * categorize the test cases of TestSuite3 (for instance "Bug", "Integration Test" )
     * one test should be rerun 3 times if it fails Note: Some tests are inherently incosistent, like tests that touch
-      some type of physical artifact, like the network, files, or a web browser. Such tests may fail for reasons outside
-      of your control. Rerun option allows a test to try again if it fails and help to fix flaky test.
+            some type of physical artifact, like the network, files, or a web browser. Such tests may fail for reasons outside
+            of your control. Rerun option allows a test to try again if it fails and help to fix flaky test.

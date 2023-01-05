@@ -125,9 +125,9 @@ libraries that allows to conduct REST/API testing.
 
 * [Comparing Junit and TestNG](https://www.guru99.com/junit-vs-testng.html) - Comparing Junit and TestNG
 * [Java smart waits](https://stackoverflow.com/questions/12858972/how-can-i-ask-the-selenium-webdriver-to-wait-for-few-seconds-in-java)
-  \- Smart waits in Java
+    \- Smart waits in Java
 * [Stale Element Reference Exception](https://www.softwaretestingmaterial.com/stale-element-reference-exception-selenium-webdriver/)
-  \- Stale Element Reference Exception in Java Selenium
+    \- Stale Element Reference Exception in Java Selenium
 
 ## Table of Contents
 

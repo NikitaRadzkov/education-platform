@@ -102,7 +102,7 @@ standard library usage. This is a theoretical/practical container, it includes b
 ## Plan
 
 | Name                                                                       | Type         | Short Description                                   | Level        | Required | Estimation (h) |
-| -------------------------------------------------------------------------- | -----------  | --------------------------------------------------- | ------------ | -------- | -------------- |
+| -------------------------------------------------------------------------- | ------------ | --------------------------------------------------- | ------------ | -------- | -------------- |
 | [First steps](./theory/first-steps/readme.md)                              | theory group | Steps to setup python environment and python basics | beginner     | required | 3              |
 | [Code style](./theory/code-style/readme.md)                                | theory group | Information on python code style practices          | beginner     | required | 2              |
 | [Intermediate topics](./theory/intermediate-topics/readme.md)              | theory group | Topics for intermediate level                       | intermediate | required | 10             |

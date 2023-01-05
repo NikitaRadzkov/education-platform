@@ -20,3 +20,4 @@ You will know how to create and manage branches and commits. Git will become you
 | [About pull requests](https://help.github.com/en/articles/about-pull-requests)                                     | documentation | Read about PR basics.                                    | 1        | 1              |
 | [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)                                | documentation | Comparing git rebase with the related git merge command. | 2        | 1              |
 | [Git Branching](https://learngitbranching.js.org/)                                                                 | interactive   | Online game to fast learn branching                      | 1        | 1              |
+| [Git knowledge test](https://www.learnqa.ru/gittest)                                                                      | interactive   | Git knowledge test                      | 1        | 1              |

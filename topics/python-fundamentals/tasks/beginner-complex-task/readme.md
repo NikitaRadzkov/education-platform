@@ -27,7 +27,7 @@ tools and get experience in Python programming.
 
 * Create a program to count number of tags on a web page.
   * The app. returns total amount of tags on a page and a descending sorted dictionary with unique tags and number
-    of how many times a tag is present on a page. Example {\<div>:10, \<span>:8, \header>:2, ....}.
+        of how many times a tag is present on a page. Example {\<div>:10, \<span>:8, \header>:2, ....}.
   * The program should work from the console and from GUI.
   * For creation GUI app. use standard TKinter library.
   * If the program gets command line keys then console version starts.
@@ -38,7 +38,7 @@ tools and get experience in Python programming.
   * Dictionary with tags is saved in one DB field using Pickle library.
   * Site name, URL, check date, tag data should be saved in DB.
   * For more comfortable work add YAML file with site name synonyms. This YAML file defines synonyms for every site.
-    For example:
+        For example:
     * ydx: yandex.ru
     * ggl: google.com
   * YAML file with several synonyms is attached to the program.

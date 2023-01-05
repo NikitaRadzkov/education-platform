@@ -39,7 +39,7 @@ and who want to learn it from the basics.
 ## Materials
 
 | Name                                                                                                                                                         | Type    | Short Description                                                           | required | Estimation (h) |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------------|----------|----------------|
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------------------------------------- | -------- | -------------- |
 | [C# language and .NET Core platform](https://metanit.com/sharp/tutorial/1.1.php)                                                                             | article | Read about C# language and .NET Core platform.                              | required | 0.3            |
 | [Getting started. Visual Studio](https://metanit.com/sharp/tutorial/1.2.php)                                                                                 | article | Read about Visual Studio.                                                   | required | 0.3            |
 | [Visual Studio - Introduction to projects and solutions](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2019) | article | Read about Projects and solutions in Visual Studio.                         | required | 0.3            |

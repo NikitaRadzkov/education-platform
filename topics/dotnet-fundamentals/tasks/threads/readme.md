@@ -33,7 +33,7 @@ Create a console application and work with threads
 ```
 
 * In Main method create 10 threads (in loop) and run them after creation. Each thread should call DoWork with thread
-  number
+    number
 * Sync WriteLine inside DoWork(object msg) in two ways on your choice
 * Modify Main method and run threads sequentially
 

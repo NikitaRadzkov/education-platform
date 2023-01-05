@@ -19,7 +19,7 @@ Use bank api to create api test
 
 * Get [national bank dev api](https://www.nbrb.by/apihelp/exrates)
 
-###Case 1
+\###Case 1
 
 * Get currency exchange rates for today: GET /api/exrates/rates?periodicity=0
 * Parse currencies into Object

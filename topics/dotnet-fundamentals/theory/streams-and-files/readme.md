@@ -21,7 +21,7 @@ This theory introduces basic knowledge about built-in .NET classes to operate wi
 ## Materials
 
 | Name                                                                                                                | Type    | Short Description                                | required | Estimation (h) |
-|---------------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------|----------|----------------|
+| ------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------ | -------- | -------------- |
 | [How to work with drive](https://metanit.com/sharp/tutorial/5.1.php)                                                | article | Read about how to work with drive                | required | 0.1h           |
 | [How wo work with directory](https://metanit.com/sharp/tutorial/5.2.php)                                            | article | Read about how to work with directory            | required | 0.2h           |
 | [How to work with files](https://metanit.com/sharp/tutorial/5.3.php)                                                | article | Read about how to work with files                | required | 0.2h           |

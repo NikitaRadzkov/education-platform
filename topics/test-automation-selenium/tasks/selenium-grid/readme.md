@@ -24,7 +24,7 @@ Run Selenium Webdriver tests via Selenium Grid
 
 * Configure Selenium Grid with hub at host or virtual machine and at least one node on another virtual machine
 * Run tests developed in [Selenium Webdriver](../selenium-webdriver/readme.md) using Selenium Grid at least on two
-  different browsers
+    different browsers
 
 ## Advanced Requirements
 

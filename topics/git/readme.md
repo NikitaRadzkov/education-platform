@@ -2,7 +2,7 @@
 
 ## Version
 
-1.0.0
+1.0.1
 
 ## Introduction
 
@@ -42,7 +42,7 @@ how to create and manage branches and commits. Git will become your friend for d
       * git stash
     * Working with Remotes
       * git remote
-      * git push / git push \<remote\> \<branch\>
+      * git push / git push \<remote> \<branch>
       * git pull
     * Tagging
       * git tag
@@ -70,20 +70,21 @@ Git will be studied from scratch, so there is no need for any input knowledge.
 
 ## Plan
 
-| Name                                                                                                               | Type          | Short Description                                        | Priority | Estimation (h) |
-| ------------------------------------------------------------------------------------------------------------------ | ------------- | -------------------------------------------------------- | -------- | -------------- |
-| [Git book Stage 1](https://git-scm.com/book/en/v2)                                                                 | documentation | Read topics in this book.                                | 1        | 10             |
-| [Git book Stage 2](https://git-scm.com/book/en/v2)                                                                 | documentation | Read topics in this book.                                | 2        | 10             |
-| [Git book videos](https://git-scm.com/videos)                                                                      | video         | Watch videos                                             | 1        | 1              |
-| [Git Best Practices:Workflow Guidelines](https://www.lullabot.com/articles/git-best-practices-workflow-guidelines) | article       | Best practices to work with Git b                        | 2        | 1              |
-| [Git Guidelines and Best Practices](https://github.com/Islandora/islandora/wiki/Git-Guidelines-and-Best-Practices) | article       | Best practices to work with Git b                        | 2        | 1              |
-| [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | documentation | Workflow description.                                    | 2        | 1              |
-| [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)                   | documentation | Workflow description.                                    | 1        | 1              |
-| [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)                   | article | Workflow description.                                    | 1        | 1              |
-| [About pull requests](https://help.github.com/en/articles/about-pull-requests)                                     | documentation | Read about PR basics.                                    | 1        | 1              |
-| [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)                                | documentation | Comparing git rebase with the related git merge command. | 2        | 1              |
-| [Git Feature Branch Workflow](./tasks/feature-branch-workflow/readme.md)                                           | task          | Create repository using feature branch workflow.         | 1        | 8              |
-| [Git Branching](https://learngitbranching.js.org/)                                                                 | interactive   | Online game to fast learn branching                      | 1        | 1              |
+| Name                                                                                                                    | Type          | Short Description                                        | Priority | Estimation (h) |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------- | -------- | -------------- |
+| [Git book Stage 1](https://git-scm.com/book/en/v2)                                                                      | documentation | Read topics in this book.                                | 1        | 10             |
+| [Git book Stage 2](https://git-scm.com/book/en/v2)                                                                      | documentation | Read topics in this book.                                | 2        | 10             |
+| [Git book videos](https://git-scm.com/videos)                                                                           | video         | Watch videos                                             | 1        | 1              |
+| [Git Best Practices:Workflow Guidelines](https://www.lullabot.com/articles/git-best-practices-workflow-guidelines)      | article       | Best practices to work with Git b                        | 2        | 1              |
+| [Git Guidelines and Best Practices](https://github.com/Islandora/islandora/wiki/Git-Guidelines-and-Best-Practices)      | article       | Best practices to work with Git b                        | 2        | 1              |
+| [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)      | documentation | Workflow description.                                    | 2        | 1              |
+| [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)                        | documentation | Workflow description.                                    | 1        | 1              |
+| [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development) | article       | Workflow description.                                    | 1        | 1              |
+| [About pull requests](https://help.github.com/en/articles/about-pull-requests)                                          | documentation | Read about PR basics.                                    | 1        | 1              |
+| [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)                                     | documentation | Comparing git rebase with the related git merge command. | 2        | 1              |
+| [Git Feature Branch Workflow](./tasks/feature-branch-workflow/readme.md)                                                | task          | Create repository using feature branch workflow.         | 1        | 8              |
+| [Git Branching](https://learngitbranching.js.org/)                                                                      | interactive   | Online game to fast learn branching                      | 1        | 1              |
+| [Git knowledge test](https://www.learnqa.ru/gittest)                                                                      | interactive   | Git knowledge test                      | 1        | 1              |
 
 ## Table of Contents
 

@@ -21,7 +21,7 @@ Create a console application which is able to read data from database and serial
 ## Requirements
 
 * Use data access classes created in task [Write from csv to database](../csv-to-database/readme.md) to load data from
-  database.
+    database.
 * Use data contracts (DataContractSerializer) to configure serialization to XML file.
 
 ## Advanced Requirements

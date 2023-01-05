@@ -23,7 +23,7 @@ You need to test "Dairy factory" object in the mobile game "Farm", which has sev
 * The second state is construction on the playing field. The available action to enter this state is Buy.
 * The next state is the opening stage. Available actions to enter this state: Wait 1 hour / Speed up for cash.
 * The fourth state is built. The available action to enter this state is: Tender materials. The available action with
-  the object at this stage: Move / Rotate.
+    the object at this stage: Move / Rotate.
 
 ### Task
 

@@ -16,7 +16,7 @@ Create a solution for API tests with help of RestSharp or/and HTTP libraries.
 ## Requirements
 
 * Create a solution for API testing of resource [source](https://gorest.co.in/public-api/users). Information for this
-  service you could find here: [information](https://gorest.co.in/).
+    service you could find here: [information](https://gorest.co.in/).
 * The solution should test the following cases:
   * Create User. Verify the user is created and the status code of the response
   * Update User. Verify the user is updated and the status code of the response

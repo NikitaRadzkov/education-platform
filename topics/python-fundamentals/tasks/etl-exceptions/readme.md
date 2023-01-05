@@ -19,7 +19,7 @@ Transform data according to the requirements below. Handle exceptions where it i
 ## Requirements
 
 * Using ([json file](./assets/persons.json)) added to this task deserialize data from the file to python object
-  and save it to CSV file.
+    and save it to CSV file.
   * Every action should be done in a separate function.
   * One person - one row for CSV.
   * CSV file should have column headers in first line.

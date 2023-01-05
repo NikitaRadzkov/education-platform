@@ -23,9 +23,9 @@ When ...
 
 Then ...
 
-| Var1 | Var2 |
+\| Var1 | Var2 |
 
-| Value1 | Value2 |
+\| Value1 | Value2 |
 
 ### Step 1
 

@@ -33,27 +33,27 @@ Create the following tables:
 
 * DrugType — enum-like table with information about possible drug types. E.g., A,B,C or Placebo, Paracetamol etc.
 
-  | DrugTypeId | Value |
-  | ---------- | ----- |
-  | 1          | A     |
-  | 2          | B     |
-  | 3          | C     |
+    | DrugTypeId | Value |
+    | ---------- | ----- |
+    | 1          | A     |
+    | 2          | B     |
+    | 3          | C     |
 
 * Patients — information about patients (Date of Birth, Initials, SelectedDrugType, Status etc.)
 
 * Status — enum-like table with possible patient statuses (Screend, Randomized, Completed, EarlyTerminated etc.) E.g.
 
-  | StatusId | Value          |
-  | -------- | -------------- |
-  | 1        | Screened       |
-  | 2        | Randomized     |
-  | 3        | EarlyCompleted |
-  | 4        | Completed      |
+    | StatusId | Value          |
+    | -------- | -------------- |
+    | 1        | Screened       |
+    | 2        | Randomized     |
+    | 3        | EarlyCompleted |
+    | 4        | Completed      |
 
 * Gender — enum-like table with gender values
 
 * Visits — information about patient visits. Think about necessary columns. Assume that one drug unit is dispensed at
-  one visit for one patient.
+    one visit for one patient.
 
 * Users — information about users (Id, Email, Password, Role). Possible Roles are sponsor, investigator or manager.
 
@@ -64,7 +64,7 @@ Create necessary indexes to spead up the search operations.
 Requirements to data population:
 
 * All data should be close to real data. That is, there shouldn't be "test", "123" etc. There should be something, for
-  example, "St. Mary Hospital", "John Doe" etc.
+    example, "St. Mary Hospital", "John Doe" etc.
 * At least two patient with one visit
 * At least two patient with several visits
 * At least two patient completed all visits
@@ -90,9 +90,9 @@ Queries:
 * Write a query that will add Expiration Date to the drug units and fill that column.
 * Write a query that will select the expired drug units.
 * Write a SQL function to count the required number of drug units to complete the rest patients' visits at the specified
-  clinic.
+    clinic.
 * Write a SQL function that will randomly choose the drug type and assign it to the specified patient.
 * Write a SQL function that will randomly choose available drug unit of the specified drug type and assign it to the
-  specified patient.
+    specified patient.
 
 The result should be a sql file with requests and comments for each request that it does.

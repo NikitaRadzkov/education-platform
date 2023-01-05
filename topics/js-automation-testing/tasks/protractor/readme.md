@@ -29,7 +29,7 @@ Create a framework using Protractor
 
 ### Test Case
 
-* Open [https://www.onliner.by/](https://www.onliner.by/) page
+* Open <https://www.onliner.by/> page
 * Check that link was opened
 * Go to Catalog tab
 * Check that link was opened

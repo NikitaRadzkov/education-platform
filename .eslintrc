@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "overrides": [{
+    "files": ["*.md"],
+    "parser": "eslint-plugin-markdownlint/parser",
+    "extends": ["plugin:markdownlint/recommended"],
+    "rules": {
+      "markdownlint/md013": "off",
+      "markdownlint/md033": "off",
+      "markdownlint/md024": "off",
+      "markdownlint/md029": "off",
+      "markdownlint/md046": ["error", { "style":  "fenced" }]
+    }
+    }],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+  }
+}

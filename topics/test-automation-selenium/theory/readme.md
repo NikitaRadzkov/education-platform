@@ -8,7 +8,7 @@ automated testing.
 ## Theoretical Materials
 
 | Name                                                                                                                            | Type          | Short Description                                                               | Priority | Estimation (h) |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------|---------------------------------------------------------------------------------|----------|----------------|
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------- | -------- | -------------- |
 | [Getting Started. Selenium IDE](https://www.selenium.dev/selenium-ide/docs/en/introduction/getting-started)                     | documentation | This tutorial will give you a basic understanding on Selenium IDE               | 2        | 2              |
 | [Selenium IDE tutorial](https://www.softwaretestinghelp.com/selenium-ide-script-selenium-tutorial-3/)                           | documentation | Step by step Selenium IDE tutorial                                              | 2        | 8              |
 | [Selenium IDE tutorial for beginners](https://www.youtube.com/watch?v=m4KpTvEz3vg)                                              | video         | Selenium IDE in details                                                         | 2        | 16             |

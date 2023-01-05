@@ -44,12 +44,12 @@ Learn in practice how to use Postman to test API.
 
 * Add pre-request scripts for requests
 
-  You can use pre-request scripts in Postman to execute JavaScript before a request runs. By including code in the
-  Pre-request Script tab for a request, collection, or folder, you can carry out pre-processing such as setting variable
-  values, parameters, headers, and body data.
+    You can use pre-request scripts in Postman to execute JavaScript before a request runs. By including code in the
+    Pre-request Script tab for a request, collection, or folder, you can carry out pre-processing such as setting variable
+    values, parameters, headers, and body data.
 
 * Add tests for requests
 
-  You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure that your API is
-  working as expected, to establish that integrations between services are functioning reliably, and to verify that new
-  developments haven't broken any existing functionality.
+    You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure that your API is
+    working as expected, to establish that integrations between services are functioning reliably, and to verify that new
+    developments haven't broken any existing functionality.

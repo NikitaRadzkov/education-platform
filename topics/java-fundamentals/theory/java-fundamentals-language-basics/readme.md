@@ -19,7 +19,7 @@ This theory provides knowledge about basics of Java
 ## Materials
 
 | Name                                                                                        | Type          | Short Description                                           | Level    | Required | Estimation (h) |
-|---------------------------------------------------------------------------------------------|---------------|-------------------------------------------------------------|----------|----------|----------------|
+| ------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------- | -------- | -------- | -------------- |
 | [Variables](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)       | documentation | Java documentation about variables                          | beginner | required | 1              |
 | [Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)      | documentation | Java documentation about primitive data types               | beginner | required | 1              |
 | [Numeric data types](https://docs.oracle.com/javase/tutorial/java/data/numbers.html)        | documentation | Java documentation about number data types                  | beginner | required | 1              |

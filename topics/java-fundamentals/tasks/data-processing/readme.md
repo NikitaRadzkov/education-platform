@@ -17,7 +17,7 @@ Console application for processing different number types.
 ## Requirements
 
 1. Implement simple console menu for application. For example first user choose the type of number that will be
-   processed (types are listed below). Then he chooses how to process it (variants are listed below).
+    processed (types are listed below). Then he chooses how to process it (variants are listed below).
 2. Data types that must be processed:
 
 * integer numbers

@@ -16,7 +16,7 @@ This theory provides knowledge about certain aspects of Object-oriented programm
 ## Materials
 
 | Name                                                                                    | Type          | Short Description                                                                 | Level    | Required | Estimation (h) |
-|-----------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------|----------|----------|----------------|
+| --------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------------------------- | -------- | -------- | -------------- |
 | [Classes and Objects](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html)   | documentation | Java documentation about classes, objects, enum types                             | beginner | required | 1              |
 | [Environment](https://docs.oracle.com/javase/tutorial/essential/environment/index.html) | documentation | Java documentation about properties, command-line arguments and system properties | beginner | required | 1              |
 | [Packages](https://docs.oracle.com/javase/tutorial/java/package/index.html)             | documentation | Java documentation about packages                                                 | beginner | required | 1              |

@@ -29,6 +29,7 @@
 > **Answer:**
 >
 > Vertical scaling adds more CPU and storage resources to increase capacity. Vertical scaling has the advantages of being simple, reliable, and cost-effective up to a certain point, but eventually you reach a point where it’s no longer feasible to move to a better machine.
+
 </details>
 
 <details>
@@ -37,6 +38,7 @@
 > **Answer:**
 >
 > Scaling horizontally means distributing the database across multiple machines. Horizontally scaled architecture can run on many small, not expensive machines, often reducing your hosting costs.
+
 </details>
 
 <details>
@@ -117,7 +119,6 @@
 
 </details>
 
-
 <details>
 <summary>12. What does NoSQL stand for?</summary>
 
@@ -175,7 +176,6 @@
 
 </details>
 
-
 <details>
 <summary>17. Name examples of document-based databases.</summary>
 
@@ -214,10 +214,10 @@
 </details>
 
 <details>
-<summary>20. Are	NoSQL databases commonly designed to use multiple servers?</summary>
+<summary>20. Are NoSQL databases commonly designed to use multiple servers?</summary>
 
 > **Answer:**
-> That's true, but this	is not a strict	requirement.
+> That's true, but this is not a strict requirement.
 
 </details>
 
@@ -225,7 +225,7 @@
 <summary>21. What is a distributed system?</summary>
 
 > **Answer:**
-> Systems that run on multiple servers are known as	distributed	systems.
+> Systems that run on multiple servers are known as distributed systems.
 
 </details>
 
@@ -233,7 +233,8 @@
 <summary>22. How is CAP-theorem applicable to NoSQL systems?</summary>
 
 > **Answer:**
->CAP theorem allows distributed systems to follow any two of these requirements. Since partition tolerance is mandatory for distributed databases. Thus, we are left only with CP (Consistency, Partition tolerance) and AP (availability, Partition tolerance).
+> CAP theorem allows distributed systems to follow any two of these requirements. Since partition tolerance is mandatory for distributed databases. Thus, we are left only with CP (Consistency, Partition tolerance) and AP (availability, Partition tolerance).
+
 Some of the examples of AP systems are `DynamoDB`, `Cassandra`, `CouchDB`
 Some of the examples of CP systems are `BigTable`, `HyperTable`, `Mongo DB`, `HBase`
 
@@ -277,6 +278,7 @@ Some of the examples of CP systems are `BigTable`, `HyperTable`, `Mongo DB`, `HB
 > The CAP theorem states that distributed systems cannot achieve all three properties at the same time; consistency, availability and partition tolerance. The `BASE` system gives up on consistency while maintaining the other two. The `BASE` system works well despite physical network partitions and always allow a client with reading and write availability.
 >
 > `BASE` stands for:
+>
 > * Basically Available - The database appears to work most of the time.
 > * Soft state - Stores don't have to be write-consistent, nor do different replicas have to be mutually consistent all the time.
 > * Eventual consistency - Stores exhibit consistency at some later point (e.g., lazily at reading time).
@@ -325,29 +327,29 @@ Some of the examples of CP systems are `BigTable`, `HyperTable`, `Mongo DB`, `HB
 </details>
 
 <details>
-<summary>4. How	are	associative	arrays different from arrays?</summary>
+<summary>4. How are associative arrays different from arrays?</summary>
 
 > **Answer:**
 >
-> An associative array is a	data structure,	like an	array, but is not restricted to using integers	as	indexes	or	limiting values	to	the	same type.	Associative	arrays generalize	the	idea of	an ordered	list indexed by	an	identifier	to	include	arbitrary values for identifiers	and	values. .
+> An associative array is a data structure, like an array, but is not restricted to using integers as indexes or limiting values to the same type. Associative arrays generalize the idea of an ordered list indexed by an identifier to include arbitrary values for identifiers and values. .
 
 </details>
 
 <details>
-<summary>5. How	does key-value databases store data?</summary>
+<summary>5. How does key-value databases store data?</summary>
 
 > **Answer:**
 >
-> Many key-value data stores keep persistent copies	of data	on long-term storage, such as hard drives or flash devices.	Some key-value	data stores	only keep data in memory.	
+> Many key-value data stores keep persistent copies of data on long-term storage, such as hard drives or flash devices. Some key-value data stores only keep data in memory.
 
 </details>
 
 <details>
-<summary>6. How	can	you	use	a cache	to improve relational database performance?</summary>
+<summary>6. How can you use a cache to improve relational database performance?</summary>
 
 > **Answer:**
 >
-> An in-memory cache is	an associative array. The values retrieved from the relational database	could be stored	in the cache by	creating a key for each	value stored. Programs that	access customer	data will typically	check the cache	first for data and if it is	not	found in the cache,	the	program	will then query	the	database. Retrieving data from memory is	faster than	retrieving it from disk. 
+> An in-memory cache is an associative array. The values retrieved from the relational database could be stored in the cache by creating a key for each value stored. Programs that access customer data will typically check the cache first for data and if it is not found in the cache, the program will then query the database. Retrieving data from memory is faster than retrieving it from disk.
 
 </details>
 
@@ -428,8 +430,8 @@ Some of the examples of CP systems are `BigTable`, `HyperTable`, `Mongo DB`, `HB
 
 > **Answer:**
 >
->* SUBSCRIBE - subscribes to channels
->* PUBLISH - posts a message to a channel
->* UNSUBSCRIBE - stops listening for messages posted to channels matching the given patterns
+> * SUBSCRIBE - subscribes to channels
+> * PUBLISH - posts a message to a channel
+> * UNSUBSCRIBE - stops listening for messages posted to channels matching the given patterns
 
 </details>

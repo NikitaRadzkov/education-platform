@@ -20,7 +20,7 @@ Automate test case with TestCafe.
 
 ### Test Case
 
-1. Go to [https://www.demoblaze.com/index.html](https://www.demoblaze.com/index.html)
+1. Go to <https://www.demoblaze.com/index.html>
 2. Verify that page is opened
 3. Click on Phones category
 4. Open any phone

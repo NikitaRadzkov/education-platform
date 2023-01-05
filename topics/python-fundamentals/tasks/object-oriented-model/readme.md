@@ -21,10 +21,10 @@
 * Inheritance should only be applied when it makes sense.
 * Classes should be intelligently distributed by packages.
 * Working with the console or the console menu should be minimal (only the necessary data for input, output only what is
-  requested in the problem statement).
+    requested in the problem statement).
 * A task is some kind of subject area in which it is required to select the necessary class hierarchy and implement it
-  using OOP (using inheritance, if necessary, or by implementing interfaces).
+    using OOP (using inheritance, if necessary, or by implementing interfaces).
 * Each class should have the fields and methods you deem necessary.
 * The program must create objects of various classes in the selected subject area, combine them into a set of objects
-  (use collections).
+    (use collections).
 * As a rule, the task requires you to search for objects according to the specified criteria.

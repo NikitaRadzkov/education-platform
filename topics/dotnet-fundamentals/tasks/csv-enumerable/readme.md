@@ -2,7 +2,7 @@
 
 ## Short Description
 
-Create custom implementation of IEnumerable\<T\> which is able to iterate through records from csv file
+Create custom implementation of IEnumerable\<T> which is able to iterate through records from csv file
 
 ## Estimation (h)
 
@@ -16,8 +16,8 @@ Create custom implementation of IEnumerable\<T\> which is able to iterate throug
 
 ## Requirements
 
-* Implement generic class CsvEnumerable\<T\> which is able to iterate through csv file records
-* CsvEnumerable\<T\> should implement IEnumerable\<T\>
+* Implement generic class CsvEnumerable\<T> which is able to iterate through csv file records
+* CsvEnumerable\<T> should implement IEnumerable\<T>
 * To read csv file use library [CsvHelper](https://joshclose.github.io/CsvHelper/)
 
 ## Advanced Requirements

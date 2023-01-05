@@ -13,6 +13,6 @@ This theory provides knowledge about some specific Java classes
 ## Materials
 
 | Name                                                                                     | Type          | Short Description                                               | Level        | Required | Estimation (h) |
-|------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------|--------------|----------|----------------|
+| ---------------------------------------------------------------------------------------- | ------------- | --------------------------------------------------------------- | ------------ | -------- | -------------- |
 | [Regular Expression](https://docs.oracle.com/javase/tutorial/essential/regex/index.html) | documentation | Java documentation regular expression overview                  | intermediate | required | 2              |
 | [Java Date and Time](https://docs.oracle.com/javase/tutorial/datetime/iso/index.html)    | documentation | Java documentation about standard calendar, date and time types | intermediate | required | 2              |

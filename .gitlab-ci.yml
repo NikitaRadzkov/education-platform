@@ -1,0 +1,20 @@
+services:
+    - docker:dind
+
+image: docker/compose:latest
+
+variables:
+  DOCKER_TLS_CERTDIR: ""
+
+
+stages:
+  - linting
+
+linting:
+  stage: linting
+  script:
+    - docker build -t linting:latest .
+    - docker run --rm linting:latest
+  only:
+    - merge_requests
+    - main

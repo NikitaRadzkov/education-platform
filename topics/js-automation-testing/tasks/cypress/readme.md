@@ -20,7 +20,7 @@ Set up video recording of a simple test in Cypress
 
 ### Test Case
 
-1. Go to [http://automationpractice.com/index.php](http://automationpractice.com/index.php)
+1. Go to <http://automationpractice.com/index.php>
 2. Click "Women" tab
 3. Find the cheapest item and open it
 4. Select any size and colour
